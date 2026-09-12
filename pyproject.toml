@@ -1,0 +1,19 @@
+[project]
+name = "hallucination-rate"
+version = "0.1.0"
+description = "Hallucination rate and quality evaluation pipeline for synthetic ICU patient data"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas==2.3.3",
+    "numpy==2.2.6",
+    "scipy==1.15.3",
+    "plotly==6.8.0",
+    "kaleido==1.3.0",
+    "anthropic==0.99.0",
+    "python-dotenv==1.2.2",
+    "tqdm==4.67.3",
+    "lifelines==0.30.0",
+]
+
+[tool.uv]
+package = false

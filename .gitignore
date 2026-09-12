@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual environments ---
+.venv/
+.venv-1/
+
+# --- uv cache and backups ---
+.uv/
+uv.lock.bak
+
+# --- Secrets ---
+.env
+.env.*
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb_meta.json
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Experiments & Artifacts ---
+workspace/
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# --- Data & generated output ---
+Data/
+summary_files/
+
+# --- Scratch / diagnostic exports ---
+requirements-check.txt
