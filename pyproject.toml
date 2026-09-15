@@ -13,7 +13,9 @@ dependencies = [
     "python-dotenv==1.2.2",
     "tqdm==4.67.3",
     "lifelines==0.30.0",
+    "openpyxl==3.1.5",
 ]
-
+ 
 [tool.uv]
 package = false
+ 
